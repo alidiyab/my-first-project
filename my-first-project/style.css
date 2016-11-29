@@ -28,7 +28,7 @@ font-size: 35px;
   padding-right: 217px;
   padding-top: 0;
   padding-left:15px;
-  padding-bottom: 30%;
+  padding-bottom: 22%;
 }
  .input-1{
   position: absolute;
@@ -66,7 +66,7 @@ font-size: 35px;
 }
 
 .sign-in{
-  background: rgba(0,0,255,0.5);
+  background: aqua;
   position: absolute;
   top: 260px;
   left:48%;
@@ -85,6 +85,7 @@ font-family: sans-serif;
   margin-bottom: 0;
 }
 
+
 .sign-in-2{
   font-style: oblique;
   color: red;
@@ -93,4 +94,37 @@ font-family: sans-serif;
   left:45%;
   padding: 20px;
   margin-top:0;
+}
+
+.img-4{
+  position: absolute;
+  top: 614px;
+  left:44%;
+}
+
+.footer {
+  position: absolute;
+  top: 90%;
+  width: 100%;
+  margin-top: 250px;
+  background-color: white;
+  color: #57564F;
+}
+.left {
+  float: left;
+  margin-left: 75px;
+  font-size: 10pt;
+  position: absolute;
+  top: 5px;
+}
+.center {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  font-size: 10pt;
+}
+.right {
+  float: right;
+  margin-right: 75px;
+  font-size: 15pt;
 }
