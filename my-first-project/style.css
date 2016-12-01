@@ -1,5 +1,15 @@
 body{
   background: #ECE8EF;
+  width: 100%;
+}
+.head{
+  font-size: 55px;
+  position: absolute;
+  top: 2px;
+  left: 90%;
+}
+#logo{
+  border-radius: 50%;
 }
 .head-1{
 position: absolute;
@@ -66,13 +76,12 @@ font-size: 35px;
 }
 
 .sign-in{
-  background: aqua;
+  border-width: 100%;
+  border-color: gray;
   position: absolute;
-  top: 260px;
-  left:48%;
-  padding: 10px;
+  top: 520px;
+  left:50%;
   border-radius: 10px;
-color: white;
 font-family: sans-serif;
 }
 
@@ -112,19 +121,27 @@ font-family: sans-serif;
 }
 .left {
   float: left;
-  margin-left: 75px;
+  margin-left: 25px;
   font-size: 10pt;
   position: absolute;
-  top: 5px;
+  top: 25px;
+  left: 4%;
+  font-size: 15px;
 }
 .center {
   position: absolute;
   top: 40%;
-  left: 40%;
-  font-size: 10pt;
+  left: 45%;
+  font-size: 15px;
 }
-.right {
+.right{
   float: right;
   margin-right: 75px;
   font-size: 15pt;
+  font-size: 15px;
+}
+.logo-4{
+  position: absolute;
+  left: 4%;
+  top: 22px;
 }
